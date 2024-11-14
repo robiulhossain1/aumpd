@@ -1,16 +1,16 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "index.php",
-      "use": "vercel-php"
-    }
-  ],
-  "routes": [
-  {
-    "src": "/(.*)",
-    "dest": "/index.php?get=$1"
-  }
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.php",
+      "use": "vercel-php"
+    }
+  ],
+  "routes": [
+  {
+    "src": "/(.*)",
+    "dest": "/index.php?get=$1"
+  }
 ],
-  "regions": ["syd1"]
+  "regions": ["syd1"]
 }
